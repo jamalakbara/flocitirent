@@ -64,3 +64,4 @@ wp-config.php
 # Dependencies
 node_modules/
 vendor/
+.aimem/.cache/
