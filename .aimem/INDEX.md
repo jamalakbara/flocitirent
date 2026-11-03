@@ -10,6 +10,7 @@ Project: `flocitirent` · mode: solo · sync: none
 3. END: run `aimem handoff` (Done / Not done / Next / Blocked). Supersede records, never delete them.
 
 ## Counts
+- decision: 1 (accepted 1)
 - memory: 3 (active 3)
 
 ## Pinned
