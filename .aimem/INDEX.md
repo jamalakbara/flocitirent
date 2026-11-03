@@ -10,7 +10,8 @@ Project: `flocitirent` · mode: solo · sync: none
 3. END: run `aimem handoff` (Done / Not done / Next / Blocked). Supersede records, never delete them.
 
 ## Counts
-- memory: 1 (active 1)
+- memory: 2 (active 2)
 
 ## Pinned
+- mem-h5npkf26 [agent] How to run and test — WordPress + Astra + Elementor Pro on MAMP at localhost/flocitirent; import index.sql; no tests yet
 - mem-rkev1wxz [agent] Project overview — WordPress marketing site for Flociti (flocitirent.co.id); business details still to confirm
