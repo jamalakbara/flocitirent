@@ -13,6 +13,6 @@ Project: `flocitirent` · mode: solo · sync: none
 - memory: 3 (active 3)
 
 ## Pinned
-- mem-85w0a4ft [agent] Conventions — Work on development, PR to main; never commit secrets, WP core, or third-party plugins/themes
+- mem-85w0a4ft [agent] Conventions — Conventional Commits; PR development→main (deploys); never touch production; never commit secrets/core/3rd-party
 - mem-h5npkf26 [agent] How to run and test — WordPress + Astra + Elementor Pro on MAMP at localhost/flocitirent; import index.sql; WP Pusher deploys main
 - mem-rkev1wxz [agent] Project overview — Redesign of flocitirent.co.id (car rental + tours); success = WhatsApp leads and SEO/brand
