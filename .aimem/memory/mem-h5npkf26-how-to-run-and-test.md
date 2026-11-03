@@ -3,7 +3,7 @@ aimem: 1
 id: mem-h5npkf26
 type: memory
 title: How to run and test
-summary: WordPress + Astra + Elementor Pro on MAMP at localhost/flocitirent; import index.sql; no tests yet
+summary: WordPress + Astra + Elementor Pro on MAMP at localhost/flocitirent; import index.sql; WP Pusher deploys main
 status: active
 trust: agent
 roles: [all]
@@ -11,11 +11,11 @@ tags: [pinned]
 paths: [.gitignore, wp-config-sample.php]
 author: agent:claude-code:claude-opus-5-5
 created: 2026-11-03T01:39:28Z
-updated: 2026-11-03T01:39:28Z
+updated: 2026-11-03T03:34:40Z
 kind: howto
 ---
 
-Stack: WordPress (core not tracked in git), Astra parent theme, Elementor + Elementor Pro, WP Pusher (deploys themes/plugins from git). MySQL 5.7, table prefix `flo_`.
+Stack: WordPress (core not tracked in git), Astra parent theme, Elementor + Elementor Pro, WP Pusher. MySQL 5.7, table prefix `flo_`.
 
 Local setup (as found on the original dev machine):
 - Served from a MAMP-style stack at `http://localhost/flocitirent`. MySQL is on port 8889 (MAMP default), database name `flocitirent`.
@@ -26,4 +26,6 @@ Local setup (as found on the original dev machine):
 
 What git tracks: only `docs/`, `.aimem/`, agent instruction files, and whitelisted custom code under `wp-content/themes/` and `wp-content/plugins/`. WordPress core, third-party plugins and themes, uploads and DB dumps are all ignored. Restore them by reinstalling.
 
-No test suite, build step or deploy pipeline exists yet. TO CONFIRM: how production is deployed (WP Pusher from which branch?).
+Deploy: WP Pusher on production pulls the tracked theme/plugin code from the `main` branch. Merging to `main` ships it. Page content and settings live in the database, so they don't travel with git.
+
+No test suite or build step exists yet. Check changes by loading the local site in a browser.
