@@ -3,7 +3,7 @@ aimem: 1
 id: mem-rkev1wxz
 type: memory
 title: Project overview
-summary: WordPress marketing site for Flociti (flocitirent.co.id); business details still to confirm
+summary: Redesign of flocitirent.co.id (car rental + tours); success = WhatsApp leads and SEO/brand
 status: active
 trust: agent
 roles: [all]
@@ -11,18 +11,20 @@ tags: [pinned]
 paths: [docs/design/**]
 author: agent:claude-code:claude-opus-5-5
 created: 2026-11-03T01:39:27Z
-updated: 2026-11-03T01:39:27Z
+updated: 2026-11-03T03:34:40Z
 kind: fact
 ---
 
-Flocitirent is a WordPress marketing site for Flociti. The live domain appears to be `flocitirent.co.id`, judging by the asset folder names under `docs/design/`.
+Flocitirent is the WordPress marketing site for Flociti (live at `flocitirent.co.id`). Flociti offers **car/vehicle rental** and **tour packages**.
 
-What the repo shows:
-- Content so far is mostly scaffolding: a Home page, Elementor templates (Default Kit, a loop item), and WordPress sample content.
-- Banner image names in `docs/design/images/original-site/` ("BANNER-TOUR", "ABOUT-US") suggest the business offers tours and rentals.
-- `docs/design/flociti.pen` holds the redesign (pen.dev; open only through the pencil MCP tools, never read it as text). `docs/design/references/` holds mood references (flito.png, anantara.jpeg).
+Goals (confirmed by owner):
+- **WhatsApp leads**: the main conversion. Visitors should be able to reach a WhatsApp chat easily from every key page, especially rental and tour pages.
+- **Brand / SEO presence**: the site must look credible and rank well. Bookings and payments happen off-site, so there is no online booking or checkout to build.
 
-TO CONFIRM WITH THE OWNER (not derivable from the repo):
-- What exactly is rented (vehicles? villas? equipment?) and who the customers are.
-- What success looks like for this site (bookings, WhatsApp leads, enquiries).
-- Whether this project is a rebuild of the live site or a new build.
+Scope: this project is a **redesign of the live site**. The new site gets rebuilt to the design in `docs/design/flociti.pen` and then replaces the current `flocitirent.co.id`.
+
+Reference material:
+- `docs/design/flociti.pen` holds the redesign (pen.dev; open only through the pencil MCP tools, never read it as text).
+- `docs/design/images/` holds assets pulled from the current live site (`flocitirent.co.id/`, `original-site/`, with banners like "BANNER-TOUR" and "ABOUT-US").
+- `docs/design/references/` holds mood references (flito.png, anantara.jpeg).
+- The local DB (`index.sql`) is mostly scaffolding so far: a Home page, Elementor templates and WordPress sample content.

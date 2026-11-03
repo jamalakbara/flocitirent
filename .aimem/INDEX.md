@@ -15,4 +15,4 @@ Project: `flocitirent` · mode: solo · sync: none
 ## Pinned
 - mem-85w0a4ft [agent] Conventions — Work on development, PR to main; never commit secrets, WP core, or third-party plugins/themes
 - mem-h5npkf26 [agent] How to run and test — WordPress + Astra + Elementor Pro on MAMP at localhost/flocitirent; import index.sql; no tests yet
-- mem-rkev1wxz [agent] Project overview — WordPress marketing site for Flociti (flocitirent.co.id); business details still to confirm
+- mem-rkev1wxz [agent] Project overview — Redesign of flocitirent.co.id (car rental + tours); success = WhatsApp leads and SEO/brand
